@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+button {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 50%;
+  }
+  .cards{
+      width:75%
+  }
+}
+
+@media (min-width: 56rem) {
+  .card{
+    width: 33.3333%;
+  }
+  .cards{
+      width: 50%;
+  }
+}
+.cards{
+    
+    width: 70%;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 70px;
+    margin-top: 5px;
+    background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+    height: fit-content;
+}
+.card {
+  width: 30%;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  float: left;
+  padding: 1rem;
+  margin: 5px;
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+  height: fit-content;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.content {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+input{
+    background: rgba(256,256,256,0.8);
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    height: 30px;
+}
+textarea{
+    background: rgba(256,256,256,0.8);
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    height:60px;
+
+}
+
+.striked {
+    text-decoration: line-through;
+}
